@@ -1,0 +1,6 @@
+//to show the wifi connections
+netsh wlan show profiles
+
+
+//to view the wifi password 
+netsh wlan show profiles "profilename" key=clear
